@@ -1,7 +1,7 @@
 <div class="card">
-    <img class="image" [src]="image" alt="imagen">
+    <img class="image" [src]="dataEntrante?.img" alt="imagen">
     <div class="wrapper-text">
-        <div class="tittle">Buen titulo</div>
-        <div class="sub-tittle">El mejor subtítulo que se haya visto</div>
+        <div class="tittle">{{dataEntrante?.tittle}}</div>
+        <div class="sub-tittle">{{dataEntrante?.subtittle}}</div>
     </div>
 </div>
